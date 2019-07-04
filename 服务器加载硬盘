@@ -1,7 +1,3 @@
-$ ls /dev/sd* 
-
-插入硬盘usb_yy
-
-$ mount /dev/sdf1/mnt/usb_yy
-$ umount /mnt/usb_yy
-$ chown -R <user> <file>
+$ mount /dev/A /mnt/B       # 挂载硬盘A到B
+$ umount /mnt/usb_yy        # 移除硬盘
+$ chown -R <user> <file>    # 更改文件权限
