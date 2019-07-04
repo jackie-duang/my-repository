@@ -1,0 +1,7 @@
+$ ls /dev/sd* 
+
+插入硬盘usb_yy
+
+$ mount /dev/sdf1/mnt/usb_yy
+$ umount /mnt/usb_yy
+$ chown -R <user> <file>
